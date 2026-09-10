@@ -1,0 +1,15 @@
+{
+  "n_epochs": [25, 50],
+  "max_lr": 0.001,
+  "layers": [2048],
+  "n_nns": 25,
+  "splits": ["70-30", "temporal"],
+  "fp_size": [256, 4096],
+  "algorithm": "randomnets",
+  "task": "REGRESSION",
+  "physchem": "full",
+  "data": [
+    "original_bth",
+    "chembl35"
+  ]
+}

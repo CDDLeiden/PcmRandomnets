@@ -1,0 +1,10 @@
+{
+  "n_epochs": 0,
+  "n_jobs": [1, 8, 16, 32, 64],
+  "splits": ["70-30"],
+  "fp_size": [4096],
+  "algorithm": "randomforest",
+  "task": "REGRESSION",
+  "physchem": "full",
+  "data": ["chembl35"]
+}

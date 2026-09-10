@@ -1,0 +1,15 @@
+{
+  "n_epochs": 0,
+  "splits": [
+    "70-30",
+    "temporal"
+  ],
+  "fp_size": [256, 4096],
+  "algorithm": "randomforest",
+  "task": "REGRESSION",
+  "physchem": "full",
+  "data": [
+    "original_bth",
+    "chembl35"
+  ]
+}

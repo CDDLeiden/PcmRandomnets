@@ -1,0 +1,21 @@
+{
+  "n_epochs": 2000,
+  "max_lr": 0.001,
+  "layers": [
+    4000,
+    2000,
+    1000
+  ],
+  "splits": [
+    "70-30",
+    "temporal"
+  ],
+  "fp_size": [256, 4096],
+  "algorithm": "dnn",
+  "task": "REGRESSION",
+  "physchem": "full",
+  "data": [
+    "original_bth",
+    "chembl35"
+  ]
+}
