@@ -60,6 +60,10 @@ subdirectories shown below) before running the prepare scripts from `data/`.
 ### input/original_bth/
 
 Input files for `prepare_data.py`. Outputs go to `data/original_bth/`.
+All files come from the supplementary materials of Lenselink *et al.*, "Beyond the
+Hype: Deep Neural Networks Outperform Established Methods Using a ChEMBL Bioactivity
+Benchmark Set", *J. Cheminform.* **9**, 45 (2017),
+[doi:10.1186/s13321-017-0232-0](https://doi.org/10.1186/s13321-017-0232-0).
 
 | File | Description | Source |
 |------|-------------|--------|
@@ -77,7 +81,19 @@ Input files for `prepare_data.py`. Outputs go to `data/original_bth/`.
 ### input/chembl35/
 
 Input files for `prepare_chembl35_data.py`. Outputs go to `data/chembl35/`.
-All files are exported from the Pipeline Pilot server.
+All files are exported from the Pipeline Pilot server. They are attached to the
+[v1.0.0 release](https://github.com/CDDLeiden/PcmRandomnets/releases/tag/v1.0.0) as
+`PcmRandomnets_input_chembl35.tar.gz` (774 MB; 6.8 GB extracted). Extracting it in the
+repository root places the files in `input/chembl35/`:
+
+```bash
+wget https://github.com/CDDLeiden/PcmRandomnets/releases/download/v1.0.0/PcmRandomnets_input_chembl35.tar.gz
+tar -xzf PcmRandomnets_input_chembl35.tar.gz
+```
+
+These files are derived from ChEMBL release 35 and, like ChEMBL, are licensed under
+[CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/). The MIT license of this
+repository covers the code only.
 
 | File | Description |
 |------|-------------|
